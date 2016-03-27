@@ -31,7 +31,7 @@ function sendEmail(parameters)
       from: '"Portfolio 👥" <abbasportfolio@gmail.com>',
       to: 'hassan_abbas9@hotmail.com',
       subject: 'My Portfolio ✔',
-      text: parameters.email + " " + parameters.message,
+      text: "Email= " + parameters.email + " Phone = " + parameters.phone + " Msg = " + parameters.message,
   };
 
   transporter.sendMail(mailOptions, function(error, info){
