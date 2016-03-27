@@ -7,7 +7,7 @@ app.controller('EmailController', function($scope, $http) {
         console.log($scope.message);
         var req = {
             method: 'POST',
-            url: 'https://shielded-island-13371.herokuapp.com/userdata',
+            url: 'https://abbas-portfolio.herokuapp.com/userdata',
             params: { name:  $scope.username, email: $scope.useremail, phone: $scope.phone, message: $scope.message}
         }
         $http(req).success(function(data){
