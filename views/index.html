@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="./js/angular-1.5.2/angular.min.js"></script>
+    <script type="text/javascript" src="./js/angular-1.5.2/angular-resource.min.js"></script>
+    <script type="text/javascript" src="./js/angular-1.5.2/angular-route.min.js"></script>
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,300italic,500,400italic,700' rel='stylesheet' type='text/css'>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <link href="./css/custom.css" rel="stylesheet">
+
+    <link rel="stylesheet" id="theme" href="./css/theme1.css" type="text/css" />
+
+    <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="./css/jquery.bxslider.css" type="text/css" />
+    <link rel="stylesheet" media="screen" href="./css/sequence-slider.css" />
+
+    <link rel="stylesheet" href="./css/magnific-popup.css">
+
+    <link rel="stylesheet" href="./css/color.switch.css" type="text/css" />
+
+    <link rel="stylesheet" href="./css/top.css" type="text/css" />
+    <link rel="shortcut icon" href="./img/favicon.ico">
+    <link rel="apple-touch-icon" href="./img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./img/apple-touch-icon-114x114.png">
+
+  </head>
+
+  <body ng-app="portfolio">
+
+    <div class="button-top" id="top-bt">
+      <a href="#about"><i class="fa fa-sort-desc fa-3x"></i></a>
+    </div>
+
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation" id="menu">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav" id="navigation">
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="about">
+     <div class="container">
+        <div class="center-block head">
+           <h1>About Me</h1>
+           <hr class="head-border-grey">
+        </div>
+          <div class="agency col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1">
+           <p>Currently i am persuing my Master in Computer Sceince(Networking and Services) from the University of Helsinki. I have professional experience in backend development working as Software Engineer in ROR(Ruby on Rails). Furthermore, i have attained skills in HTML, CSS and Git. I also know other frameworks like AngularJS and NodeJS. </p>
+           <p> What inspires me to learn more is to give something back to society. Since as a computer scince student you can really change the way in which people do their normal routine work. If i am able to do that then i think am able to achieve my goals.</p>
+
+            <div class="skills">
+                 <ul id="skillbar">
+                  <li><span class="skillbar html"></span><p>HTML</p></li>
+
+                  <li><span class="skillbar css"></span><p>CSS</p></li>
+
+                  <li><span class="skillbar java"></span><p>JAVASCRIPT</p></li>
+
+                  <li><span class="skillbar angular"></span><p>ANGULAR</p></li>
+
+                  <li><span class="skillbar rails"></span><p>RAILS</p></li>
+                </ul>
+            </div>
+          </div>
+           <div class="col-lg-5 col-md-5">
+            <ul>
+              <li>
+                <img class="img-responsive" src="./img/agency-img3.jpg">
+              </li>
+            </ul>
+           </div>
+      </div>
+    </div>
+
+
+  <div id="service">
+    <div class="container">
+
+      <div class="row">
+       <div class="center-block head">
+         <div class="col-lg-12 col-md-12 col-xs-12">
+            <h1>What I Do</h1>
+            <hr class="head-border-white">
+         </div>
+      </div>
+
+      <div class="col-lg-4 col-md-4 service">
+        <div class="service-col">
+         <div class="icon-desktop rotate">
+           <img src="./img/icons/webdesign.png" alt="">
+         </div>
+          <h4>Web Design</h4>
+        </div>
+      </div>
+
+          <div class="col-lg-4 col-md-4 service">
+            <div class="service-col">
+              <div class="icon-wrench rotate">
+                <img src="./img/icons/graphicdesign.png" alt="">
+              </div>
+            <h4>Backend Developement</h4>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 service">
+            <div class="service-col">
+              <div class="icon-mobile rotate">
+                <img src="./img/icons/mobile.png" alt="">
+               </div>
+              <h4>Frontend Development</h4>
+            </div>
+          </div>
+       </div>
+     </div>
+  </div>
+
+  <div id="portfolio">
+    <div class="container">
+      <div class="center-block head">
+        <div class="col-lg-12 col-md-12 col-xs-12">
+         <h1 class="d-grey">My Portfolio</h1>
+           <hr class="head-border-grey">
+        </div>
+      </div>
+      <div class="filter-list">
+        <ul class="nav nav-pills">
+            <li><a href="https://github.com/hassanabbas9" class="filter" data-filter="all">Github</a></li>
+        </ul>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</div>
+
+  <div id="process">
+    <div class="container">
+      <div class="row">
+        <div class="center-block head">
+           <div class="col-lg-12 col-md-12 col-xs-12">
+              <h1>How I Do It</h1>
+              <hr class="head-border-white">
+           </div>
+        </div>
+        <div class="our-process">
+           <div class="process">
+              <div class="col-lg-4 process-con img1">
+                 <div class="process-img rotate">
+                    <img src="./img/icons/idea.png" alt="">
+                 </div>
+                 <h5>Inspiration</h5>
+              </div>
+             <div class="col-lg-4 process-con img2">
+               <div class="process-img rotate">
+                 <img src="./img/icons/creation.png" alt="">
+               </div>
+               <h5>Creation</h5>
+             </div>
+             <div class="col-lg-4 process-con img3">
+               <div class="process-img rotate">
+                <img src="./img/icons/presentation.png" alt="">
+               </div>
+               <h5>Presentation</h5>
+             </div>
+          </div>
+        </div>
+     </div>
+    </div>
+  </div>
+
+  <div id="contact">
+    <div class="container">
+       <div class="row">
+        <div class="center-block head">
+         <div class="col-lg-12 col-md-12 col-xs-12">
+           <h1>Get in Touch</h1>
+            <hr class="head-border-grey">
+            <p class="center">Leave me a message</p>
+            <p id="resp" class="center"></p>1
+         </div>
+        </div>
+
+          <div class="col-lg-8 col-md-8 col-lg-offset-2 col-md-offset-2 form">
+            <form name="contactForm" class="form-horizontal" ng-controller="EmailController" ng-submit="submit()" id="contactForm">
+              <div class="form-group">
+                  <div class="col-sm-12">
+                  <input type="text" ng-model="username" name="username" class="form-control input-lg" placeholder="Name" required>
+                  </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-12">
+                  <input ng-model="useremail" type="email" class="form-control input-lg" placeholder="Email" name="useremail" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-12">
+                  <input type="text" ng-model="phone"class="form-control input-lg" name="phone" id="phone" placeholder="Phone" ng-model="phone" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-12">
+                  <textarea class="form-control input-lg" rows="10" name="message" id="message" placeholder="Message" ng-model="message" required></textarea>
+                </div>
+              </div>
+              <div class="control-group submit center">
+                 <input class="btn btn-lg btn-primary" type="submit" value="Submit">
+              </div>
+            </form>
+          </div>
+       </div>
+    </div>
+  </div>
+
+  <div class="col-lg-12">
+    <div class="up"><a href="#about"><span class="glyphicon glyphicon-chevron-up"></span></a></div>
+  </div>
+
+  <div id="divider">
+    <div class="divider-bg"></div>
+    <div class="container">
+      <div class="row">
+          <div class="col-12-lg social-media">
+            <div class="social-icons">
+              <a class="social-media facebook" href="https://www.facebook.com/hassan.abbas.503092"><i class="fa fa-facebook-square fa-8x"></i></a>
+              <a class="social-media white linkedin" href="https://www.linkedin.com/in/hassan-abbas-83041539"><i class="fa fa-linkedin-square fa-8x"></i></a>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <div id="foot">
+    <div class="container">
+      <div class="col-lg-4 col-md-4">
+          <div class="bottom-con">
+              <h5>Write Me</h5>
+              <hr class="head-border-white">
+              <div class="">
+                 <p><i class="fa fa-phone"><span> +358 44 9242507</span></i></p>
+                 <p><i class="fa fa-envelope"><span> hassan_abbas9@hotmail.com</span></i></p>
+             </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="editor">
+
+      <div class="panel">
+
+        <h5>Choose your Color</h5>
+
+        <div id="changecss">
+
+        <div class="row">
+
+        <div class="circle-skin" ><a href="javascript: void(0)" title="switch styling" id="theme1"><div class="left skin1-l"></div><div class="right skin1-r"></div></a></div>
+
+        <div class="circle-skin" ><a href="javascript: void(0)" title="switch styling" id="theme2"><div class="left skin2-l"></div><div class="right skin2-r"></div></a></div>
+
+        <div class="circle-skin" ><a href="javascript: void(0)" title="switch styling" id="theme3"><div class="left skin3-l"></div><div class="right skin3-r"></div></a></div>
+
+        <div class="circle-skin" ><a href="javascript: void(0)" title="switch styling" id="theme4"><div class="left skin4-l"></div><div class="right skin4-r"></div></a></div>
+
+        <div class="circle-skin" ><a href="javascript: void(0)" title="switch styling" id="theme5"><div class="left skin5-l"></div><div class="right skin5-r"></div></a></div>
+
+        <div class="circle-skin" ><a href="javascript: void(0)" title="switch styling" id="theme6"><div class="left skin6-l"></div><div class="right skin6-r"></div></a></div>
+
+        </div>
+
+        </div>
+
+        <div class="clearfix"></div>
+      </div>
+
+       <div class="switch">
+           <i class="fa fa-cog fa-spin fa-2x"></i>
+       </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="./js/functions.js"></script>
+  <script type="text/javascript" src="./js/jquery.mixitup.min.js"></script>
+  <script type="text/javascript" src="./js/magnific.js"></script>
+
+  <script type="text/javascript" src="./js/jquery.bxslider.min.js"></script>
+
+  <script type="text/javascript" src="./js/jquery.sequence-min.js"></script>
+  <script type="text/javascript" src="./js/app.js"></script>
+
+  <script type="text/javascript" src="./js/nbw-parallax.js"></script>
+  <script type="text/javascript" src="./js/jquery.inview.js"></script>
+
+  <script type="text/javascript" src="./js/smoothscroll.js"></script>
+
+  <script type="text/javascript" src="./js/jquery.sticky.js"></script>
+
+  <script type="text/javascript" src="./js/jquery.style-switcher.js"></script>
+
+  <script type="text/javascript" src="./js/jquery.flexisel.js"></script>
+  <script type="text/javascript" src="./js/w2ui-1/w2ui-1.4.3.min.js"></script>
+
+
+  </body>
+</html>
